@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+
+header,main,footer{
+    min-width: 855px;
+}
+header .container,main .container,footer .container{
+    max-width: 855px;
+    margin: auto;
+}
+header{
+    background: lightblue;
+    overflow: auto;
+}
+header h1{
+    float: left;
+    width: 570px;
+}
+header h2{
+    float: right;
+    width: 285px;
+}
+main{
+    background: lightgray;
+    overflow: auto;
+}
+section.comment-input{
+    float: left;
+    width: 570px;
+}
+section.comments{
+    float: right;
+    width: 285px;
+}
+footer{
+
+    overflow: auto;
+    background: lightpink;
+}
+footer h3{
+    float: left;
+    with: 855px;
+}
+.comments p:nth-child(even){
+    background: lavender;
+}
+.comments p:nth-child(odd) {
+    background: gainsboro;
+}
